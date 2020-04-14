@@ -23,8 +23,7 @@ def long_planeteer_calls(planeteer_calls)
   # Return the boolean result of this check
   
   planeteer_calls.all? { |word| word.length > 4 }
-    
-  
+
 end
 
 def find_valid_calls(planeteer_calls)
