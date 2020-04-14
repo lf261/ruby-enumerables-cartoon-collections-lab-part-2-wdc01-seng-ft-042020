@@ -35,7 +35,7 @@ def find_valid_calls(planeteer_calls)
   
   planeteer_calls.find {|calls| calls == valid_calls}
   
-end
+
   
                     # true_var = planeteer_calls.any? { |word| word == valid_calls }
                   
