@@ -33,6 +33,6 @@ def find_valid_calls(planeteer_calls)
   
   planeteer_calls.any { |word| word == valid_calls }
   
-  return 
+  return |word
   
 end
