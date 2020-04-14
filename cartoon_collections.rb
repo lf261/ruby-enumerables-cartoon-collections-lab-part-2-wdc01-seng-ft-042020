@@ -34,8 +34,5 @@ def find_valid_calls(planeteer_calls)
   # Return the first valid call found, or return nil if no valid calls are found
   
   planeteer_calls.include? { |word| word == valid_calls }
-    if planeteer_calls.inlcude? { |word| word !== valid_calls }
-      return false 
-    end 
   
 end
